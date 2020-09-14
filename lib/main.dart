@@ -1,13 +1,14 @@
-import 'package:flutter/material.dart';
 
+import 'package:flutter/material.dart';
+import 'package:iot/screen/authen.dart';
 main() {
-  runApp(Myapps());//main apps
+  runApp(Myapp());
 }
-class Myapps extends StatelessWidget {
+class Myapp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Text('Hello world'),//home apps
+      home: Authen(),
     );
   }
 }
